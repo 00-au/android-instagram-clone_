@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "50908429419",
+    "firebase_url": "https://silverstargramf16.firebaseio.com",
+    "project_id": "silverstargramf16",
+    "storage_bucket": "silverstargramf16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50908429419:android:79e9804aa5b9b241fbc52e",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50908429419-nokoap99h5ikrm9oro54aeo7o5ek9o9e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "84f717cdf8bf31412076f4aa008c1bab028a8704"
+          }
+        },
+        {
+          "client_id": "50908429419-233mip2eiml8d0vodvfd41ubcou5bnuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwRYvYauF3UeTfuSS3vd7Z7Ewye4tNXyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50908429419-233mip2eiml8d0vodvfd41ubcou5bnuj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navigation.DetailViewFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+
+        <ImageView
+            android:id="@+id/detailviewitem_profile_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/ic_launcher" />
+        <TextView
+            android:gravity="top"
+            android:id="@+id/detailviewitem_profile_text"
+            android:text="User name"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/toolbar_division"
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/my_toolbar"
+        android:background="@color/colorDivision"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/detailviewitem_imageview_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/detailviewitem_favorite_imageview"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_favorite_border"></ImageView>
+
+        <ImageView
+            android:id="@+id/detailviewitem_comment_imageview"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_chat_black"></ImageView>
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edittext"
+        android:layout_below="@+id/toolbar_division"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    <TextView
+        android:id="@+id/detailviewitem_favorite_counter_textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:text="Likes 0"></TextView>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edittex"
+        android:layout_below="@+id/toolbar_division"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/detailviewitem_explain_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="120dp"
+            android:text="Explain content"></TextView>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>
